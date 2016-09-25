@@ -64,11 +64,6 @@ var education = {
         "school": "Udacity",
         "dates": "2016",
         "url": "https://udacity.com"
-    }, {
-        "title": "Front-End Web Developer Nanodegree",
-        "school": "Udacity",
-        "dates": "2016",
-        "url": "https://udacity.com"
     }],
     // Displaying educations - schools
     "display": function() {
