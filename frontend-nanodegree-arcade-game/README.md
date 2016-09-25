@@ -5,7 +5,7 @@ In this classic arcade game you have a Player and Enemies (Bugs). The goal of th
 ### Screenshot
 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Classic arcade game")
+![alt text](https://raw.githubusercontent.com/musaab-abdalla/musaab-abdalla.github.io/master/frontend-nanodegree-arcade-game/images/screenshot.jpg "Classic arcade game")
 
 Instructions
 ------------
