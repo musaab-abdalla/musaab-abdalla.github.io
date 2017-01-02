@@ -27,8 +27,14 @@ git clone https//github.com/musaab-abdalla/frontend-nanodegree-arcade-game
 
 **2.** Serve the application:
 
-* _**Please note that loading the**_ `index.html` _**in the browser will not work.**_ The easy way is to install a web server on your local machine like **_`WAMP , XAMPP _and_ SimpleHTTPServer`_**.
-* To start the game, navigate to the `index.html` file in your browser use url: `http://localhost/your-folder/index.html`
+**Please note that loading the `index.html` in the browser will not work.** The easy way is to install a web server on your local machine like `WAMP , XAMPP _and_ SimpleHTTPServer`
+
+**3.** Open the application:
+
+To start the game, navigate to the `index.html` file in your browser use url:
+```
+http://localhost/your-folder/index.html
+```
 
 ###How to play the game?
 
