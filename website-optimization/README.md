@@ -32,6 +32,7 @@ Get index.html achieves a PageSpeed score of at least 90 for Mobile and Desktop.
 * Inline a CSS `style.css` file.
 * Minifying a javaScript `.js` file.
 * Added media attribute for `print.css`.
+
 ######After above optimizations, PageSpeed improved to:
 * mobile: 97/100
 * desktop: 95/100
