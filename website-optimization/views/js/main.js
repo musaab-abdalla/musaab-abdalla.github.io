@@ -471,8 +471,11 @@ var resizePizzas = function(size) {
   // Using a local variable instead of a property lookup can speed up the loops.
   // Using getElementsByClassName instead of querySelectorAll is faster way to access the DOM.
   // Modify width changes and remove px calculation.
+
   var randomPizzas = document.getElementsByClassName("randomPizzaContainer");
-    for (var i = 0; i < randomPizzas.length; i++) {
+  // Stores the length of the randomPizzas HTMLCollection in a local variable, limiting the
+  // number of times the object is accessed directly
+    for (var i = 0, randomPizzasLength = randomPizzas.length; i < randomPizzasLength; i++) {
         randomPizzas[i].style.width = newWidth + "%";
     }
   }
@@ -493,7 +496,6 @@ window.performance.mark("mark_start_generating"); // collect timing data
 var pizzasDiv = document.getElementById("randomPizzas");
 // This for-loop actually creates and appends all of the pizzas when the page loads
 for (var i = 2; i < 100; i++) {
-
   pizzasDiv.appendChild(pizzaElementGenerator(i));
 }
 
@@ -525,11 +527,6 @@ function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
 
-  // Moved DOM query the items variable out of the loop above
-  // and then assigned to variable once. It's initialized in the
-  // global scope on page load.
-  var phase;
-
   // Using local variables is especially important when dealing
   // with HTMLCollection objects.
   // Using getElementsByClassName is faster way to access the
@@ -541,23 +538,17 @@ function updatePositions() {
   // DOM unaffected by changes.
   // http://ryanmorr.com/abstract-away-the-performance-faults-of-queryselectorall
   var items = document.getElementsByClassName('mover');
-
-  // In reality, though, items.length is accessed items.length plus 1 times in this
-  // function, since the control statement (i < items.length) is executed each time
-  // through the loop. The function will run faster when this value is stored in a
-  // local variable and then accessed from there.
-  // http://archive.oreilly.com/pub/a/server-administration/excerpts/even-faster-websites/writing-efficient-javascript.html#I_programlisting7_d1e7276
-  // var itemsLength = items.length;
-
-  // and moved scrollTop request outside the for loop and
-  // the browser has to give the most up-to-date value.
-  var top = document.body.scrollTop / 1250;
-  for (var i = 0; i < itemsLength; i++) {
-    phase = Math.sin(top + (i % 5));
-    items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
+  // Calculates the five phase into its own for loop that appends each phase to an array,
+  // rather than declaring and setting the phase variable each time.
+  var phase = [];
+  for (var i = 0; i < 5; i++) {
+      phase.push(Math.sin(document.body.scrollTop / 1250 + i) * 100);
   }
-
-
+  //The pizza item positions are changed by accessing the relevant element of the phase array,
+  //rather than reusing the phase variable.
+  for (var i = 0, max = items.length; i < max; i++) {
+    items[i].style.left = items[i].basicLeft + phase[i % 5] + 'px';
+  }
   // User Timing API to the rescue again. Seriously, it's worth learning.
   // Super easy to create custom metrics.
   window.performance.mark("mark_end_frame");
@@ -575,7 +566,16 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  for (var i = 0; i < 200; i++) {
+  // Generates max number of pizza number is now dynamic, based on screen height
+  var rows = window.screen.height / s;
+  var numberOfPizzas = rows * cols;
+
+  // Using document.getElementById() Web API call is faster, saved this
+  // DOM call outside the for statement and save it into a local variable.
+  var movingPizzas = document.getElementById('movingPizzas1');
+  // Declaring the elem variable (var elem;) in the initialization of the for-loop
+  // will prevent it from being created every time the loop is executed.
+  for (var i = 0, elem; i < numberOfPizzas; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
@@ -583,7 +583,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
-    document.querySelector("#movingPizzas1").appendChild(elem);
+    movingPizzas.appendChild(elem);
   }
   updatePositions();
 });
