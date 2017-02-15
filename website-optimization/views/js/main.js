@@ -547,8 +547,7 @@ function updatePositions() {
   }
   //The pizza item positions are changed by accessing the relevant element of the phase array,
   //rather than reusing the phase variable.
-  var max = items.length;
-  for (var i = 0; i < max; i++) {
+  for (var i = 0, max = items.length; i < max; i++) {
     items[i].style.left = items[i].basicLeft + phase[i % 5] + 'px';
   }
   // User Timing API to the rescue again. Seriously, it's worth learning.
