@@ -577,7 +577,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Declaring the elem variable (var elem;) in the initialization of the for-loop
   // will prevent it from being created every time the loop is executed.
   for (var i = 0, elem; i < numberOfPizzas; i++) {
-    var elem = document.createElement('img');
+    elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
