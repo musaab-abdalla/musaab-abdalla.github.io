@@ -538,18 +538,21 @@ function updatePositions() {
   // DOM unaffected by changes.
   // http://ryanmorr.com/abstract-away-the-performance-faults-of-queryselectorall
   var items = document.getElementsByClassName('mover');
-  var top = document.body.scrollTop / 1250;
+
   // Calculates the five phase into its own for loop that appends each phase to an array,
   // rather than declaring and setting the phase variable each time.
   var phase = [];
+  var top = document.body.scrollTop / 1250;
   for (var i = 0; i < 5; i++) {
       phase.push(Math.sin(top + i) * 100);
   }
+
   //The pizza item positions are changed by accessing the relevant element of the phase array,
   //rather than reusing the phase variable.
   for (var i = 0, max = items.length; i < max; i++) {
     items[i].style.left = items[i].basicLeft + phase[i % 5] + 'px';
   }
+
   // User Timing API to the rescue again. Seriously, it's worth learning.
   // Super easy to create custom metrics.
   window.performance.mark("mark_end_frame");
@@ -568,7 +571,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
   // Generates max number of pizza number is now dynamic, based on screen height
-  var rows = window.screen.height / s;
+  var rows = Math.ceil(window.screen.height / s);
   var numberOfPizzas = rows * cols;
 
   // Using document.getElementById() Web API call is faster, saved this
