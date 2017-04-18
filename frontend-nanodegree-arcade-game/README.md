@@ -1,23 +1,23 @@
-#Classic Arcade Game
+# Classic Arcade Game
 
-######Overview
+###### Overview
 In this classic arcade game you have a Player and Enemies (Bugs). The goal of the player is to reach the water, without colliding into any one of the enemies. The player can move _left, right, up and down_. The enemies move in varying speeds on the paved block portion of the scene. Once a the player collides with an enemy, the game is reset and the player moves back to the start square. Once the player reaches the water the game is won. <br/>
 
-##Getting Started
+## Getting Started
 
-######Screenshot
+###### Screenshot
 
 ![alt text](https://raw.githubusercontent.com/musaab-abdalla/musaab-abdalla.github.io/master/frontend-nanodegree-arcade-game/images/screenshot.jpg "Classic arcade game")
 
-######Live
+###### Live
 
 **Go to** https://musaab-abdalla.github.io/frontend-nanodegree-arcade-game
 
-#Instructions
+# Instructions
 
 ### How to load the game?
 
-######Locally
+###### Locally
 
 **1.** Clone this repo:
 
@@ -36,7 +36,7 @@ To start the game, navigate to the `index.html` file in your browser use url:
 http://localhost/your-folder/index.html
 ```
 
-###How to play the game?
+### How to play the game?
 
 * The goal of the _**player**_ is to reach the _**water**_, without _**colliding into any one of the enemies**_.
 * The enemies move in _**varying speeds**_ on the paved block portion of the scene.
