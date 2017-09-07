@@ -1,11 +1,12 @@
-#Website Optimization
-######Overview
+# Website Optimization
+
+###### Overview
 Website optimization project as part of the [Udacity](https://udacity.com) [Front-End Web Developer Nanodegree](https://classroom.udacity.com/nanodegrees/nd001). The task was to optimize a provided website with a number of optimization- and performance-related issues so that it achieves a target PageSpeed score and runs at 60 frames per second.
 
-##Getting Started
-######Live
+## Getting Started
+###### Live
 **Go to** https://musaab-abdalla.github.io/website-optimization
-######Locally
+###### Locally
 **1.** Clone this repo:
 ```
 git clone https://github.com/musaab-abdalla/frontend-nanodegree-website-optimization.git
@@ -20,10 +21,10 @@ Detailed Python Simple Server instructions can been found [here](https://docs.py
 ```
 $ open "http://localhost:8000"
 ```
-###1: Critical Rendering Path
-######Overview
+### 1: Critical Rendering Path
+###### Overview
 Get index.html achieves a PageSpeed score of at least 90 for Mobile and Desktop.
-######Optimizations:
+###### Optimizations:
 * Used the async javaScript method to load Google fonts.
 * Reduced size of `pizzeria.jpg` image to 100px width.
 * Convert profilepic.jpg to png.
@@ -33,14 +34,14 @@ Get index.html achieves a PageSpeed score of at least 90 for Mobile and Desktop.
 * Minifying a javaScript `.js` file.
 * Added media attribute for `print.css`.
 
-######After above optimizations, PageSpeed improved to:
+###### After above optimizations, PageSpeed improved to:
 * mobile: 97/100
 * desktop: 95/100
 
-###2: Frame Rate
-######Overview
+### 2: Frame Rate
+###### Overview
 Optimizations made to `views/js/main.js` make views/pizza.html render with a consistent frame-rate at 60fps when scrolling. You will find instructional comments in `main.js`.
-######Optimizations:
+###### Optimizations:
 * Moved constants out of for loops.
 * Generate max number of pizza number is now dynamic, based on screen height.
 * Using local variables is especially important when dealing with HTMLCollection objects.
@@ -48,10 +49,10 @@ Optimizations made to `views/js/main.js` make views/pizza.html render with a con
 * Since the control statement (i < items.length) is executed each time through the loop. The function will run faster when this value is stored in a local variable and then accessed from there.
 * Moved scrollTop request outside the for loop and the browser has to give the most up-to-date value.
 
-###3: Computational Efficiency
-######Overview
+### 3: Computational Efficiency
+###### Overview
 Time to resize pizzas is less than 5 ms using the pizza size slider on the `views/pizza.html` page. Resize time is shown in the browser developer tools.
-######Optimizations:
+###### Optimizations:
 * Fixed forced synchronous layout issue with pizza sliders
 * Unrolling loop to improve performance. The basis of this is limiting the number of iterations can mitigate the performance overhead of a loop. Which means making each iteration do the work of multiple iterations.
 * Using a local variable instead of a property lookup can speed up the loops.
