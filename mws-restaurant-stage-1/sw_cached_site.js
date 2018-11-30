@@ -25,12 +25,10 @@ const FILESTOCACHE = [
 
 // Install ServiceWorker
 self.addEventListener('install', event => {
-  console.log('ServiceWorker: Installed');
   event.waitUntil(
     caches.open(CACHE_VERSION)
       .then(cache => {
-        console.log('ServiceWorker: Caching Files');
-        cache.addAll(FILESTOCACHE);
+        return cache.addAll(FILESTOCACHE);
       })
       .then(() => self.skipWaiting())
   );
@@ -38,13 +36,11 @@ self.addEventListener('install', event => {
 
 // Activate ServiceWorker
 self.addEventListener('activate', event => {
-  console.log('ServiceWorker: Activated');
   event.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
         cacheNames.map(cache => {
           if (cache !== CACHE_VERSION) {
-            console.log('ServiceWorker: Clearing Old Cache');
             return caches.delete(cache);
           }
         })
@@ -54,8 +50,22 @@ self.addEventListener('activate', event => {
 });
 
 // Fetch ServiceWorker
+
+
+
 self.addEventListener('fetch', event => {
-  console.log('ServiceWorker: Fetching');
   event.respondWith(
-    fetch(event.request).catch(() => caches.match(event.request)));
+    caches.match(event.request)
+      .then(ersponse => response ||
+    caches.open(CACHE_VERSION).then(cache => fetch(event.request).then((response) => {
+      if (response.status === 404) {
+        return new Response("Page not found.")
+      }
+      if(event.request.url.includes('restaurant.html') || event.request.url.includes('leaflet')){
+        cache.put(event.request, response.clone());
+      }
+      return response;
+    }))).catch(() =>
+    new Response("You seems to be offline, and we didn't find any old cache for the URL."))
+  );
 });
