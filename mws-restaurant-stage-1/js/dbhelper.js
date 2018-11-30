@@ -9,6 +9,11 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const port = 3000 // Change this to your server port
+
+    if(isHosted){
+    	console.log(window.location.hostname);
+      return `https://musaab-abdalla.github.io/mws-restaurant-stage-1/data/restaurants.json`;
+    }
     return `http://localhost:${port}/data/restaurants.json`;
   }
 
