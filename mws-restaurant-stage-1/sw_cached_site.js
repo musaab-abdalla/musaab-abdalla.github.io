@@ -1,4 +1,4 @@
-const cacheVersion = 'restaurant-v1';
+const cacheVersion = 'restaurant-v2';
 const filesToCache = [
   '/index.html',
   './', // alais to index.html
