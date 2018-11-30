@@ -1,5 +1,5 @@
-const cacheVersion = 'restaurant-v2';
-const filesToCache = [
+const CACHE_VERSION = 'restaurant-v2';
+const FILESTOCACHE = [
   '/index.html',
   './', // alais to index.html
   '/restaurant.html',
@@ -27,10 +27,10 @@ const filesToCache = [
 self.addEventListener('install', event => {
   console.log('ServiceWorker: Installed');
   event.waitUntil(
-    caches.open(cacheVersion)
+    caches.open(CACHE_VERSION)
       .then(cache => {
         console.log('ServiceWorker: Caching Files');
-        cache.addAll(filesToCache);
+        cache.addAll(FILESTOCACHE);
       })
       .then(() => self.skipWaiting())
   );
@@ -43,7 +43,7 @@ self.addEventListener('activate', event => {
     caches.keys().then(cacheNames => {
       return Promise.all(
         cacheNames.map(cache => {
-          if (cache !== cacheVersion) {
+          if (cache !== CACHE_VERSION) {
             console.log('ServiceWorker: Clearing Old Cache');
             return caches.delete(cache);
           }
