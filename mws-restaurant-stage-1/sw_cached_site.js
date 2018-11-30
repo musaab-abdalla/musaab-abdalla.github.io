@@ -1,4 +1,4 @@
-const cacheVersion = 'restaurant-v2';
+const cacheVersion = 'restaurant-v1';
 const filesToCache = [
   '/',
   '/css/styles.css',
@@ -59,12 +59,3 @@ self.addEventListener('fetch', event => {
     fetch(event.request)
       .catch(() => caches.match(event.request)));
 });
-
-// self.addEventListener('fetch', event => {
-//   event.respondWith(
-//     caches.match(event.request)
-//       .then(response => {
-//         return response || fetch(event.request);
-//     })
-//   );
-// });
