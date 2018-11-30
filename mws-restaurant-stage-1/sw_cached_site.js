@@ -1,8 +1,38 @@
 const cacheVersion = 'restaurant-v1';
+const filesToCache = [
+  '/',
+  '/css/styles.css',
+  '/js/dbhelper.js',
+  '/js/main.js',
+  '/js/restaurant_info.js',
+  '/data/restaurants.json',
+  '/img/1.jpg',
+  '/img/2.jpg',
+  '/img/3.jpg',
+  '/img/4.jpg',
+  '/img/5.jpg',
+  '/img/6.jpg',
+  '/img/7.jpg',
+  '/img/8.jpg',
+  '/img/9.jpg',
+  '/img/10.jpg',
+  '//unpkg.com/leaflet@1.3.1/dist/leaflet.js',
+  // '//normalize-css.googlecode.com/svn/trunk/normalize.css',
+  '//unpkg.com/leaflet@1.3.1/dist/leaflet.css'
+];
 
 // Install ServiceWorker
 self.addEventListener('install', event => {
   console.log('ServiceWorker: Installed');
+  event.waitUntil(
+    caches
+      .open(cacheVersion)
+      .then(cache => {
+        console.log('ServiceWorker: Caching Files');
+        cache.addAll(filesToCache);
+      })
+      .then(() => self.skipWaiting())
+  );
 });
 
 // Activate ServiceWorker
@@ -11,10 +41,10 @@ self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
-        cacheNames.map(cache => {
-          if (cache != cacheVersion) {
+        cacheNames.map(cacheName => {
+          if (cacheName != cacheVersion) {
             console.log('ServiceWorker: Clearing Old Cache');
-            return caches.delete(cache);
+            return caches.delete(cacheName);
           }
         })
       )
@@ -23,20 +53,18 @@ self.addEventListener('activate', event => {
 });
 
 // Fetch ServiceWorker
+// self.addEventListener('fetch', event => {
+//   console.log('ServiceWorker: Fetching');
+//   event.respondWith(
+//     fetch(event.request)
+//       .catch(() => caches.match(event.request)));
+// });
+
 self.addEventListener('fetch', event => {
-  console.log('ServiceWorker: Fetching');
   event.respondWith(
-    fetch(event.request)
-      .then(res => {
-      // Make copy/clone of response
-        const responseClone = res.clone();
-        // open cache
-        caches.open(cacheVersion)
-          .then(cache => {
-            // add response to cache
-            cache.put(event.request, responseClone);
-          });
-        return res;
-    }).catch(err => caches.match(event.request).then(res => res))
+    caches.match(event.request)
+      .then(response => {
+        return response || fetch(event.request);
+    })
   );
 });
