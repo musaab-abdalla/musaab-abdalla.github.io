@@ -1,4 +1,4 @@
-const CACHE_VERSION = 'restaurant-v2';
+const CACHE_VERSION = 'restaurant-v3';
 const FILESTOCACHE = [
   './', // alais to index.html
   'index.html',
