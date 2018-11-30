@@ -1,4 +1,4 @@
-const cacheVersion = 'restaurant-v2';
+const cacheVersion = 'restaurant-v1';
 
 // Install ServiceWorker
 self.addEventListener('install', event => {
