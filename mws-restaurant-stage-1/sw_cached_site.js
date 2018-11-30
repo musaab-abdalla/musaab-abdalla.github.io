@@ -51,20 +51,9 @@ self.addEventListener('activate', event => {
 
 // Fetch ServiceWorker
 self.addEventListener('fetch', (event) => {
-  event.respondWith(caches.match(event.request).then((response) => {
-    return response ||
-      caches
-      .open(CACHE_VERSION)
-      .then((cache) => fetch(event.request)
-        .then((response) => {
-      if (response.status === 404) {
-        return new Response("Page not found.");
-      }
-      if (event.request.url.indexOf('restaurant.html') != -1 || event.request.url.indexOf('leaflet') != -1) {
-        cache.put(event.request, response.clone());
-      }
-      return response;
-    }));
-  }).catch(() => new Response("You seems to be offline, and we didn't find any old cache for the URL."))
+  event.respondWith(
+    caches.match(event.request)
+      .then((response) => response || fetch(event.response)
+    ).catch(() => new Response("You seems to be offline, and we didn't find any old cache for the URL."))
   );
 });
