@@ -219,7 +219,7 @@ if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker
       .register('/sw_cached_site.js', {
-        scope: '/mws-restaurant-stage-1/'
+        scope: 'https://musaab-abdalla.github.io/mws-restaurant-stage-1/'
       })
       // Registration was successful
       .then(reg => console.log(`ServiceWorker registration successful with scope: ${reg.scope}.`))
