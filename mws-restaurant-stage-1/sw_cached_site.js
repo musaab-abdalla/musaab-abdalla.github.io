@@ -1,6 +1,8 @@
 const cacheVersion = 'restaurant-v1';
 const filesToCache = [
-  '/',
+  '/index.html',
+  './', // alais to index.html
+  '/restaurant.html',
   '/css/styles.css',
   '/js/dbhelper.js',
   '/js/main.js',
@@ -25,8 +27,7 @@ const filesToCache = [
 self.addEventListener('install', event => {
   console.log('ServiceWorker: Installed');
   event.waitUntil(
-    caches
-      .open(cacheVersion)
+    caches.open(cacheVersion)
       .then(cache => {
         console.log('ServiceWorker: Caching Files');
         cache.addAll(filesToCache);
@@ -42,7 +43,7 @@ self.addEventListener('activate', event => {
     caches.keys().then(cacheNames => {
       return Promise.all(
         cacheNames.map(cache => {
-          if (cache != cacheVersion) {
+          if (cache !== cacheVersion) {
             console.log('ServiceWorker: Clearing Old Cache');
             return caches.delete(cache);
           }
@@ -56,6 +57,5 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
   console.log('ServiceWorker: Fetching');
   event.respondWith(
-    fetch(event.request)
-      .catch(() => caches.match(event.request)));
+    fetch(event.request).catch(() => caches.match(event.request)));
 });
