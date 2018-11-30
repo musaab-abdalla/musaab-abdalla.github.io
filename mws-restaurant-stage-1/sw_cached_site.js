@@ -50,10 +50,10 @@ self.addEventListener('activate', event => {
 });
 
 // Fetch ServiceWorker
-self.addEventListener('fetch', (event) => {
+self.addEventListener('fetch', event => {
   event.respondWith(
     caches.match(event.request)
-      .then((response) => response || fetch(event.response)
-    ).catch(() => new Response("You seems to be offline, and we didn't find any old cache for the URL."))
+      .then(response => response || fetch(event.response)
+    )
   );
 });
