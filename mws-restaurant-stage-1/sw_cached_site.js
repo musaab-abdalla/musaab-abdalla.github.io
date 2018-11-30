@@ -53,18 +53,18 @@ self.addEventListener('activate', event => {
 });
 
 // Fetch ServiceWorker
-// self.addEventListener('fetch', event => {
-//   console.log('ServiceWorker: Fetching');
-//   event.respondWith(
-//     fetch(event.request)
-//       .catch(() => caches.match(event.request)));
-// });
-
 self.addEventListener('fetch', event => {
+  console.log('ServiceWorker: Fetching');
   event.respondWith(
-    caches.match(event.request)
-      .then(response => {
-        return response || fetch(event.request);
-    })
-  );
+    fetch(event.request)
+      .catch(() => caches.match(event.request)));
 });
+
+// self.addEventListener('fetch', event => {
+//   event.respondWith(
+//     caches.match(event.request)
+//       .then(response => {
+//         return response || fetch(event.request);
+//     })
+//   );
+// });
