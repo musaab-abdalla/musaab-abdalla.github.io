@@ -18,6 +18,10 @@ html {
     box-shadow: 0 0 0 0.2rem rgb(51, 151, 219);
 }
 
+#skip {
+    background-color: #f3f3f3;
+}
+
 #skip a {
     position: absolute;
     left: -10000px;
@@ -67,7 +71,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #3397db;
+    color: #1a5680;
     text-decoration: none;
 }
 
@@ -535,9 +539,9 @@ ul#restaurants-list::after {
 }
 
 @media screen and (min-width: 768px) {
-  #map {
-    height: 400px;
-  }
+    #map {
+        height: 400px;
+    }
     .inside header {
         -webkit-box-shadow: none;
         box-shadow: none;
