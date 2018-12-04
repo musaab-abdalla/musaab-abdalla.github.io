@@ -1,5 +1,5 @@
 // Names of the cache used in this version of the service worker
-const staticCacheName = 'restaurant-v2';
+const staticCacheName = 'restaurant-v1';
 
 // A list of resources always want to be cached
 const urlToCache = [
