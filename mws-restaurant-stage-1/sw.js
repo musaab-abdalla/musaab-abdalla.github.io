@@ -1,25 +1,26 @@
 // Names of the cache used in this version of the service worker
-const staticCacheName = 'restaurant-v2';
+const staticCacheName = 'restaurant-v3';
 
 // A list of resources always want to be cached
 const urlToCache = [
-  '/',
-  'css/styles.css',
-  'js/dbhelper.js',
-  'js/main.js',
-  'js/restaurant_info.js',
-  'js/indexController.js',
-  'data/restaurants.json',
-  'img/1.jpg',
-  'img/2.jpg',
-  'img/3.jpg',
-  'img/4.jpg',
-  'img/5.jpg',
-  'img/6.jpg',
-  'img/7.jpg',
-  'img/8.jpg',
-  'img/9.jpg',
-  'img/10.jpg',
+  '/mws-restaurant-stage-1/',
+  '/mws-restaurant-stage-1/index.html',
+  '/mws-restaurant-stage-1/css/styles.css',
+  '/mws-restaurant-stage-1/js/dbhelper.js',
+  '/mws-restaurant-stage-1/js/main.js',
+  '/mws-restaurant-stage-1/js/restaurant_info.js',
+  '/mws-restaurant-stage-1/js/indexController.js',
+  '/mws-restaurant-stage-1/data/restaurants.json',
+  '/mws-restaurant-stage-1/img/1.jpg',
+  '/mws-restaurant-stage-1/img/2.jpg',
+  '/mws-restaurant-stage-1/img/3.jpg',
+  '/mws-restaurant-stage-1/img/4.jpg',
+  '/mws-restaurant-stage-1/img/5.jpg',
+  '/mws-restaurant-stage-1/img/6.jpg',
+  '/mws-restaurant-stage-1/img/7.jpg',
+  '/mws-restaurant-stage-1/img/8.jpg',
+  '/mws-restaurant-stage-1/img/9.jpg',
+  '/mws-restaurant-stage-1/img/10.jpg',
   'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js',
   'https://unpkg.com/leaflet@1.3.1/dist/leaflet.css'
 ];
