@@ -12,7 +12,7 @@ class DBHelper {
     const isHosted = (window.location.hostname === "musaab-abdalla.github.io") ? 'true' : '';
     if(isHosted){
     	console.log(window.location.hostname);
-      return `https://musaab-abdalla.github.io/mws-restaurant-stage-1/data/restaurants.json`;
+      return `https://musaab-abdalla.github.io/frontend-nanodegree-restaurant-stage-1/data/restaurants.json`;
     }
     return `http://localhost:${port}/data/restaurants.json`;
   }

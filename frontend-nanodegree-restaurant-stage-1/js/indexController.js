@@ -5,7 +5,7 @@
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
       navigator.serviceWorker
-        .register('/sw.js')
+        .register('/frontend-nanodegree-restaurant-stage-1/sw.js')
         // Registration was successful
         .then(reg => console.log(`ServiceWorker registration successful with scope: ${reg.scope}.`))
         // registration failed
