@@ -1,0 +1,325 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="MBC" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mbc_ae_1.png" group-title="MBC",MBC 1
+https://shls-mbc1ksa-prod-dub.shahid.net/out/v1/451b666db1fb41c7a4bbecf7b4865107/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MBC 2" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mbc_ae_2.png" group-title="MBC",MBC 2
+https://tv.chachatv.tk/live/direct/direct/238.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MBC 3" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mbc_ae_3.png" group-title="MBC",MBC 3
+https://shls-mbc3-eur-prod-dub.shahid.net/out/v1/fce09dd6a967431a871efb3b8dec9f82/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MBC 3" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mbc_ae_3.png" group-title="KIDS",MBC 3
+https://shls-mbc3-prod-dub.shahid.net/out/v1/d5bbe570e1514d3d9a142657d33d85e6/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MBC 4" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mbc_ae_4.png" group-title="MBC",MBC 4
+https://shls-mbc4-prod-dub.shahid.net/out/v1/c08681f81775496ab4afa2bac7ae7638/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MBC 5" tvg-country="MA" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mbc-5-ae.png" group-title="MBC",MBC 5
+https://shls-mbc5-prod-dub.shahid.net/out/v1/2720564b6a4641658fdfb6884b160da2/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MBC Action" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mbc_ae_action.png" group-title="MBC",MBC Action
+https://blogs.livehdchanel.live/action2/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MBC Bollywood" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mbc_ae_bollywood.png" group-title="MBC",MBC Bollywood
+https://shls-mbcbollywood-prod-dub.shahid.net/out/v1/a79c9d7ef2a64a54a64d5c4567b3462a/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MBC Drama" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mbc_ae_drama.png" group-title="MBC",MBC Drama
+https://shls-mbcdramaksa-prod-dub.shahid.net/out/v1/ce0f0762d89e4394a856c5fd13e43645/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MBC Iraq" tvg-country="IQ" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mbc-iraq-ae-iq.png" group-title="MBC",MBC Iraq
+https://shls-iraq-prod-dub.shahid.net/out/v1/c9bf1e87ea66478bb20bc5c93c9d41ea/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MBC Masr" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mbc_ae_masr.png" group-title="MBC",MBC Masr
+https://shls-masr-prod-dub.shahid.net/out/v1/b7093401da27496797a8949de23f4578/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MBC Masr 2" tvg-country="EG" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/mm/mbc_ae_masr_2.png" group-title="MBC",MBC Masr 2
+https://shls-masr2-prod-dub.shahid.net/out/v1/f683685242b549f48ea8a5171e3e993a/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MBC Max" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mbc_ae_max.png" group-title="MBC",MBC Max
+https://tv.chachatv.tk/live/direct/direct/244.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="MBC Drama Plus" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mbc-drama-plus-ae.png" group-title="MBC",MBC+ Drama
+https://shls-mbcplusdrama-prod-dub.shahid.net/out/v1/97ca0ce6fc6142f4b14c0a694af59eab/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Wanasah" tvg-country="ARAB" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ww/wanasah_tv.png" group-title="MBC",Wanasah
+https://shls-wanasah-prod-dub.shahid.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Cinema" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/rr/rotana_cinema.png" group-title="ROTANA",Rotana Cinema
+https://shls-rotanacinema-egy-prod-dub.shahid.net/out/v1/c39c0ecbcbdb46e890e91106776397a8/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Cinema KSA" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/rr/rotana-cinema-ksa-sa.png" group-title="ROTANA",Rotana Cinema KSA
+https://shls-rotanacinema-ksa-prod-dub.shahid.net/out/v1/6cee1c57ea7841e697eb15cefc98e0a6/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Classic" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/rr/rotana_classic.png" group-title="ROTANA",Rotana Classic HD
+https://shls-rotanaclassic-prod-dub.shahid.net/out/v1/4eebed211c8441228321b4f67a46c5a5/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Comedy" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/rr/rotana-comedy-sa.png" group-title="ROTANA",Rotana Comedy HD
+https://rotanastudios-rotanacomedy-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Drama" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/rr/rotana-drama-sa.png" group-title="ROTANA",Rotana Drama HD
+https://hiplayer.hibridcdn.net/p/rotana-drama
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Drama" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/rr/rotana-drama-sa.png" group-title="ROTANA",Rotana Drama HD
+https://shls-rotanadrama-prod-dub.shahid.net/out/v1/20c617b40dc743589ecc9d08d9d3345d/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Khalijia" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/rr/rotana_khalejia.png" group-title="ROTANA",Rotana Khalijia HD
+https://hiplayer.hibridcdn.net/p/rotana-khaleejiya
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Khalijia" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/rr/rotana_khalejia.png" group-title="ROTANA",Rotana Khalijia HD
+https://shls-rotanakhalijia-prod-dub.shahid.net/out/v1/a639fd49db684f1b8c063d398101a888/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Kids" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/rr/rotana-kids-sa.png" group-title="ROTANA",Rotana Kids
+https://hiplayer.hibridcdn.net/p/rotana-kids
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Kids" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/rr/rotana-kids-sa.png" group-title="KIDS",Rotana Kids
+https://shls-rotanakids-prod-dub.shahid.net/out/v1/df6e0eb3cdc4410b98209aafc8677cef/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Music" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/rr/rotana_music.pngg" group-title="ROTANA",Rotana Music
+https://shls-rotanamusic-prod-dub.shahid.net/out/v1/edfe0095261648908a3a931b72489f3f/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Music 4K+" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/rr/rotana-m-plus-sa.png" group-title="ROTANA",Rotana Music 4K+
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/928
+#EXTINF:-1 tvg-id="" tvg-name="Rotana Clip" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/rr/rotana_clip.png" group-title="ROTANA",Rotana Clip
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/925
+#EXTINF:-1 tvg-id="" tvg-name="Rotana plus" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/rr/rotana-plus-sa.png" group-title="ROTANA",Rotana+
+https://shls-rotanaplus-prod-dub.shahid.net/out/v1/1fc6103458be480b96e6a574b00fe1c0/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Cartoon Network Arabic" tvg-language="Arabic" tvg-logo="https://www.lyngsat-logo.com/logo/tv/cc/cartoon_network_global.png" group-title="KIDS",Cartoon Network Arabic
+https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Spacetoon" tvg-country="SY" tvg-language="Arabic" tvg-logo="https://i.imgur.com/RzPOwqI.png" group-title="KIDS",Spacetoon
+https://shls-spacetoon-prod-dub.shahid.net/out/v1/6240b773a3f34cca95d119f9e76aec02/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="CARTOON NETWORK" tvg-country="US" tvg-language="English" tvg-logo="https://www.lyngsat.com/logo/tv/cc/cartoon_network_global.png" group-title="KIDS",CARTOON NETWORK
+http://178.132.3.162:88/cartoon_network/index.m3u8?token=test&lang=eng
+#EXTINF:-1 tvg-id="" tvg-name="Boomerang" tvg-country="US" tvg-language="English" tvg-logo="https://www.lyngsat.com/logo/tv/bb/boomerang_global.png" group-title="KIDS",Boomerang
+http://27.254.130.56:80/live01/ch18.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="TOONCAST" tvg-logo="https://www.lyngsat-logo.com/logo/tv/tt/tooncast.png" group-title="KIDS",TOONCAST
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/725
+#EXTINF:-1 tvg-id="" tvg-name="DISNEY" tvg-logo="https://www.lyngsat-logo.com/logo/tv/dd/disney_channel_global.png" group-title="KIDS",DISNEY
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/512
+#EXTINF:-1 tvg-id="" tvg-name="DISNEYJR" tvg-logo="https://www.lyngsat-logo.com/logo/tv/dd/disney_junior_us.png" group-title="KIDS",DISNEY JR
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/513
+#EXTINF:-1 tvg-id="" tvg-name="DISNEYXD" tvg-logo="https://www.lyngsat-logo.com/logo/tv/dd/disney_xd_us.png" group-title="KIDS",DISNEY XD
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/514
+#EXTINF:-1 tvg-id="" tvg-name="NATGEO KIDS" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/nat_geo_us_kids.png" group-title="KIDS",NATGEO KIDS
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/738
+#EXTINF:-1 tvg-id="" tvg-name="Nickelodeon HD (ENG)" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/nick_toons_us.png" group-title="KIDS",Nickelodeon HD (ENG)
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/754
+#EXTINF:-1 tvg-id="" tvg-name="CARTOON NETWORK" tvg-logo="https://www.lyngsat-logo.com/logo/tv/cc/cartoon_network_global.png" group-title="KIDS",CARTOON NETWORK
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/683
+#EXTINF:-1 tvg-id="" tvg-name="UNIVERSALKIDS" tvg-logo="https://www.lyngsat-logo.com/logo/tv/uu/universal-kids-us.png" group-title="KIDS",UNIVERSALKIDS
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/664
+#EXTINF:-1 tvg-id="" tvg-name="SUDAN" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/sudan-tv-sd.png" group-title="SUDAN",|AR| SUDAN
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/13890
+#EXTINF:-1 tvg-id="" tvg-name="OMDURMAN" tvg-logo="https://www.lyngsat-logo.com/logo/tv/oo/omdurman_tv.png" group-title="SUDAN",|SUDAN| OMDURMAN
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/160016
+#EXTINF:-1 tvg-id="" tvg-name="SUDANIA S24" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/sudania_24_tv_sd.png" group-title="SUDAN",|SUDAN| SUDANIA S24
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/160015
+#EXTINF:-1 tvg-id="" tvg-name="SUDANIA S24 HD" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/sudania_24_tv_sd.png" group-title="SUDAN",|SUDAN| SUDANIA S24 HD
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/160014
+#EXTINF:-1 tvg-id="" tvg-name="ASHOROOQ TV" tvg-logo="https://www.lyngsat-logo.com/logo/tv/aa/ashorooq_tv.png" group-title="SUDAN",|SUDAN| ASHOROOQ TV
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/8403
+#EXTINF:-1 tvg-id="" tvg-name="KASSALA TV" tvg-logo="https://www.lyngsat-logo.com/logo/tv/kk/kassala_tv_sd.png" group-title="SUDAN",|SUDAN| KASSALA TV
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/160012
+#EXTINF:-1 tvg-id="" tvg-name="AL HILAL" tvg-logo="https://www.lyngsat-logo.com/logo/tv/aa/al-hilal-tv-sd.png" group-title="SUDAN",|SUDAN| AL HILAL
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/160011
+#EXTINF:-1 tvg-id="" tvg-name="SUDAN TV" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/sudan-tv-sd.png" group-title="SUDAN",|SUDAN| SUDAN TV
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/160010
+#EXTINF:-1 tvg-id="" tvg-name="BLUE NILE" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/blue_nile_channel_sd.png" group-title="SUDAN",|SUDAN| BLUE NILE
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/160009
+#EXTINF:-1 tvg-id="" tvg-name="SUDAN MONAWAAT" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/sudan_drama_sd.png" group-title="SUDAN",|SUDAN| SUDAN MONAWAAT
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/160008
+#EXTINF:-1 tvg-id="" tvg-name="SUDAN MUSIC" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/sudan-music-sd.png" group-title="SUDAN",|SUDAN| SUDAN MUSIC
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/160007
+#EXTINF:-1 tvg-id="" tvg-name="SUDAN SPORT" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/sudan-sport-sd.png" group-title="SUDAN",|SUDAN| SUDAN SPORT
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/160006
+#EXTINF:-1 tvg-id="" tvg-name="SUDAN SPORT HD" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/sudan-sport-sd.png" group-title="SUDAN",|SUDAN| SUDAN SPORT HD
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/160005
+#EXTINF:-1 tvg-id="" tvg-name="NEELAIN SPORT" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/neelain_tv_sd.png" group-title="SUDAN",|SUDAN| NEELAIN SPORT
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/160004
+#EXTINF:-1 tvg-id="" tvg-name="SUDAN KNOWLEDGE" tvg-logo="https://www.lyngsat-logo.com/logo/tv/aa/almareefa-sd.png" group-title="SUDAN",|SUDAN| SUDAN KNOWLEDGE
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/160003
+#EXTINF:-1 tvg-id="" tvg-name="RED SEA" tvg-logo="https://www.lyngsat-logo.com/logo/tv/rr/red-sea-channel-sd.png" group-title="SUDAN",|SUDAN| RED SEA
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/160002
+#EXTINF:-1 tvg-id="" tvg-name="SOUTHERN SUDAN" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/ssbc-tv-ss.png" group-title="SUDAN",|SUDAN| SOUTHERN SUDAN
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/160001
+#EXTINF:-1 tvg-id="" tvg-name="AL ISTIJABA TV" tvg-logo="https://www.lyngsat-logo.com/logo/tv/aa/al_istijaba_tv.png" group-title="SUDAN",|SUDAN| AL ISTIJABA TV
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/160000
+#EXTINF:-1 tvg-id="" tvg-name="AL MARIKH" tvg-logo="https://www.lyngsat-logo.com/logo/tv/aa/almerrikh-sd.png" group-title="SUDAN",|SUDAN| AL MARIKH
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/159999
+#EXTINF:-1 tvg-id="" tvg-name="KHARTOUM TV HD" tvg-logo="https://www.lyngsat-logo.com/logo/tv/kk/khartoum_tv_sd.png" group-title="SUDAN",|SUDAN| KHARTOUM TV HD
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/159998
+#EXTINF:-1 tvg-id="" tvg-name="OMDURMAN TV" tvg-logo="https://www.lyngsat-logo.com/logo/tv/oo/omdurman_tv.png" group-title="SUDAN",|SUDAN| OMDURMAN TV
+http://rv.imax.re:80/IcXuKdFSjp/uOtoaNTNW9/159997
+#EXTINF:-1 tvg-id="" tvg-name="BLUE NILE2" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/blue_nile_channel_sd.png" group-title="SUDAN",|SUDAN 2| BLUE NILE
+http://hd.waldi2017.com:2082/110023041214988/81515121/2268
+#EXTINF:-1 tvg-id="" tvg-name="SUDAN TV2" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/sudan-tv-sd.png" group-title="SUDAN",|SUDAN 2| SUDAN TV
+http://hd.waldi2017.com:2082/110023041214988/81515121/20954
+#EXTINF:-1 tvg-id="" tvg-name="SUDAN DRAMA" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/sudan_drama_sd.png" group-title="SUDAN",|SUDAN| SUDAN DRAMA
+http://hd.waldi2017.com:2082/110023041214988/81515121/16260
+#EXTINF:-1 tvg-id="" tvg-name="SUDAN SPORT2" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ss/sudan-sport-sd.png" group-title="SUDAN",|SUDAN 2| SUDAN SPORT
+http://hd.waldi2017.com:2082/110023041214988/81515121/20957
+#EXTINF:-1 tvg-id="" tvg-name="BBC AME HD (ENG)" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/bbc_america_east.png" group-title="NEWS",BBC AME HD (ENG)
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/679
+#EXTINF:-1 tvg-id="" tvg-name="CBSNEWYORK" tvg-logo="https://www.lyngsat-logo.com/logo/tv/cc/cbs-news-us.png" group-title="NEWS",CBS NEWYORK
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/497
+#EXTINF:-1 tvg-id="" tvg-name="FOXBUSINESS (ENG)" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ff/fox-business-us.png" group-title="NEWS",FOX BUSINESS (ENG)
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/541
+#EXTINF:-1 tvg-id="" tvg-name="MSNBC HD ENG" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/msnbc_us.png" group-title="NEWS",MSNBC HD ENG
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/596
+#EXTINF:-1 tvg-id="" tvg-name="NBC NEW YORK" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/nbc_us_east.png" group-title="NEWS",NBC NEW YORK
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/601
+#EXTINF:-1 tvg-id="" tvg-name="ABC NEW YORK" tvg-logo="https://www.lyngsat-logo.com/logo/tv/aa/abc-news-al.png" group-title="NEWS",ABC NEW YORK
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/728
+#EXTINF:-1 tvg-id="" tvg-name="Fox News HD" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ff/fox_news_channel.png" group-title="NEWS",Fox News HD
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/734
+#EXTINF:-1 tvg-id="" tvg-name="ESPN News" tvg-country="US" tvg-language="English" tvg-logo="https://www.lyngsat.com/logo/tv/ee/espnews.png" group-title="SPORTS",ESPN News
+https://gma2.blab.email/espnews.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ESPN News" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ee/espnews.png" group-title="SPORTS",ESPN News
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/1191
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 1" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_01_hk.png" group-title="beIN Sports",beIN Sports 1 4K+
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/13241
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 2" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_02_hk.png" group-title="beIN Sports",beIN Sports 2 4K+
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/13242
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 3" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_03_hd.png" group-title="beIN Sports",beIN Sports 3 4K+
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/13243
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 4" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_tr_sports_04_hd.png" group-title="beIN Sports",beIN Sports 4 4K+
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/13244
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 5" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_05_hd.png" group-title="beIN Sports",beIN Sports 5 4K+
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/1966
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 6" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_06_hd.png" group-title="beIN Sports",beIN Sports 6 4K+
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/13246
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 7" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_07_hd.png" group-title="beIN Sports",beIN Sports 7 4K+
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/13247
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 8" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_08_hd.png" group-title="beIN Sports",beIN Sports 8 4K+
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/13248
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 9" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_09_hd.png" group-title="beIN Sports",beIN Sports 9 4K+
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/13249
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 10" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_10_hd.png" group-title="beIN Sports",beIN Sports 10 4K+
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/13250
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 11" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_11_hd.png" group-title="beIN Sports",beIN Sports 11 4K+
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/1968
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 11" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_11_hd.png" group-title="beIN Sports",beIN Sports 11 (ENG)
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/13251
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 12" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_12_hd.png" group-title="beIN Sports",beIN Sports 12 4K+
+http://exchange.jinbox.nl:1339/sammy.muniz1/3R1EJuyw2Zxr/1969
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 13" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_13_hd.png" group-title="beIN Sports",beIN Sports 13
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1448.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 14" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_14_hd.png" group-title="beIN Sports",beIN Sports 14 (Match Days Only)
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1449.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 15 HD" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_15_hd.png" group-title="beIN Sports",beIN Sports 15 HD (Match Days Only)
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1450.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports 11 SD" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_11_hd.png" group-title="beIN Sports",beIN Sports 11 SD
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1451.ts
+#EXTINF:-1 tvg-id="" tvg-name="[CA] BEIN LaLiga HD" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_espanol.png" group-title="beIN Sports",[CA] BEIN LaLiga HD
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1452.ts
+#EXTINF:-1 tvg-id="" tvg-name="TR:beIN Sports 1" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/bein-sports-1-qa-fr.png" group-title="beIN Sports",TR:beIN Sports 1
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1453.ts
+#EXTINF:-1 tvg-id="" tvg-name="TR:beIN Sports 2" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/bein-sports-2-qa-fr.png" group-title="beIN Sports",TR:beIN Sports 2
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1454.ts
+#EXTINF:-1 tvg-id="" tvg-name="TR:beIN Sports 3" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/bein-sports-3-qa-fr.png" group-title="beIN Sports",TR:beIN Sports 3
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1455.ts
+#EXTINF:-1 tvg-id="" tvg-name="TR:beIN Sports 4" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/bein-turkiye-qa-tr.png" group-title="beIN Sports",TR:beIN Sports 4
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1456.ts
+#EXTINF:-1 tvg-id="" tvg-name="US: beIN Sports USA" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_us.png" group-title="beIN Sports",US: beIN Sports USA
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1457.ts
+#EXTINF:-1 tvg-id="" tvg-name="ES: BEIN LA LIGA" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_espanol.png" group-title="beIN Sports",ES: BEIN LA LIGA
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1458.ts
+#EXTINF:-1 tvg-id="" tvg-name="ES: BEIN LA LIGA1" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_espanol.png" group-title="beIN Sports",ES: BEIN LA LIGA1
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1459.ts
+#EXTINF:-1 tvg-id="" tvg-name="|FR| BEIN SPORT 1" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/bein-sports-1-qa-fr.png" group-title="beIN Sports",|FR| BEIN SPORT 1
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1460.ts
+#EXTINF:-1 tvg-id="" tvg-name="|FR| BEIN SPORT 2" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/bein-sports-2-qa-fr.png" group-title="beIN Sports",|FR| BEIN SPORT 2
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1461.ts
+#EXTINF:-1 tvg-id="" tvg-name="|FR| BEIN SPORT 3" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/bein-sports-3-qa-fr.png" group-title="beIN Sports",|FR| BEIN SPORT 3
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1462.ts
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports ENG HD" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_us.png" group-title="beIN Sports",beIN Sports ENG HD
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/488
+#EXTINF:-1 tvg-id="" tvg-name="BEIN ESPANIOL HD" tvg-logo="https://www.lyngsat-logo.com/logo/tv/bb/be_in_mena_sports_espanol.png" group-title="beIN Sports",BEIN ESPANIOL HD
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/487
+#EXTINF:-1 tvg-id="" tvg-name="beIN Sports XTRA" tvg-language="English" tvg-logo="https://www.beinsportsxtra.com/images/icons/logo/beIN-SPORTS-XTRA_LOGO.png" group-title="beIN Sports",beIN Sports XTRA
+https://bein-plutolive-vo.akamaized.net/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ESPN" tvg-country="US" tvg-language="English" tvg-logo="https://www.lyngsat.com/logo/tv/ee/espn_us.png" group-title="SPORTS",ESPN
+https://cdn008.teleuptv.net/aG0SpRUVhW/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 2" tvg-country="US" tvg-language="English" tvg-logo="https://www.lyngsat.com/logo/tv/ee/espn_2.png" group-title="SPORTS",ESPN 2
+https://cdn008.teleuptv.net/lhD6XFkRND/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 2" tvg-country="US" tvg-language="English" tvg-logo="https://www.lyngsat.com/logo/tv/ee/espn_2.png" group-title="SPORTS",ESPN 2
+https://gma2.blab.email/espn2.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ESPN U" tvg-country="US" tvg-language="English" tvg-logo="https://www.lyngsat.com/logo/tv/ee/espn_u.png" group-title="SPORTS",ESPN U
+https://gma2.blab.email/espnu.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="FOX Sport HD 1" tvg-country="US" tvg-language="English" tvg-logo="https://www.lyngsat.com/logo/tv/ff/fox_sports_lam_hd.png" group-title="SPORTS",FOX Sport HD 1
+https://austchannel-live.akamaized.net/hls/live/2002736/austchannel-sport/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="US ESPN 1 (HD)" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ee/espn_us.png" group-title="SPORTS",US ESPN 1 (HD)
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1784.ts
+#EXTINF:-1 tvg-id="" tvg-name="US ESPN 1 (SD)" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ee/espn_us.png" group-title="SPORTS",US ESPN 1 (SD)
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1785.ts
+#EXTINF:-1 tvg-id="" tvg-name="US ESPN 1 (Y)" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ee/espn_us.png" group-title="SPORTS",US ESPN 1 (Y)
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1786.ts
+#EXTINF:-1 tvg-id="" tvg-name="US ESPN 1 (A)" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ee/espn_us.png" group-title="SPORTS",US ESPN 1 (A)
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1787.ts
+#EXTINF:-1 tvg-id="" tvg-name="US ESPN 1 (H)" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ee/espn_us.png" group-title="SPORTS",US ESPN 1 (H)
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1788.ts
+#EXTINF:-1 tvg-id="" tvg-name="US ESPN 1 (D)" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ee/espn_us.png" group-title="SPORTS",US ESPN 1 (D)
+http://s1.mainevents.icu:8000/live/239021AM4884820/47212021AM4784345/1789.ts
+#EXTINF:-1 tvg-id="" tvg-name="NBA HD (ENG)" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/nba_tv_us.png" group-title="SPORTS",NBA HD (ENG)
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/600
+#EXTINF:-1 tvg-id="NBCSportsNetwork.us" tvg-name="NBCSN  HD (ENG)" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/nbcsn-us.png" group-title="SPORTS",NBCSN  HD (ENG)
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/606
+#EXTINF:-1 tvg-id="" tvg-name="NFL NETWORK" tvg-logo="https://www.lyngsat-logo.com/logo/tv/nn/nfl_network_us.png" group-title="SPORTS",NFL NETWORK
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/616
+#EXTINF:-1 tvg-id="" tvg-name="OLYMPIC CHANNEL  HD (ENG)" tvg-logo="https://www.lyngsat-logo.com/logo/tv/oo/olympic_channel_es.png" group-title="SPORTS",OLYMPIC CHANNEL  HD (ENG)
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/624
+#EXTINF:-1 tvg-id="" tvg-name="FOX DEPORTES HD" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ff/fox_deportes_us.png" group-title="SPORTS",FOX DEPORTES HD
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/531
+#EXTINF:-1 tvg-id="" tvg-name="FS1" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ff/fox_sports_us_1.png" group-title="SPORTS",FS1
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/549
+#EXTINF:-1 tvg-id="" tvg-name="FS2" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ff/fox_sports_us_2.png" group-title="SPORTS",FS2
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/550
+#EXTINF:-1 tvg-id="" tvg-name="OXCOLLEGESPORTSCENTRAL" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ff/fox_college_sports_central.png" group-title="SPORTS",FOX COLLEGES PORTS CENTRAL
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/542
+#EXTINF:-1 tvg-id="" tvg-name="GOLF CHANNEL HD" tvg-logo="https://www.lyngsat-logo.com/logo/tv/gg/golf_channel_us.png" group-title="SPORTS",GOLF CHANNEL HD
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/558
+#EXTINF:-1 tvg-id="" tvg-name="ESPN 2 HD (ENG)" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ee/espn_2.png" group-title="SPORTS",ESPN 2 HD (ENG)
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/733
+#EXTINF:-1 tvg-id="" tvg-name="MLB NETWORKS" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mlb_network.png" group-title="SPORTS",MLB NETWORKS
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/736
+#EXTINF:-1 tvg-id="" tvg-name="ESPN GOAL LINE" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ee/espn-goal-line-us.png" group-title="SPORTS",ESPN GOAL LINE
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/771
+#EXTINF:-1 tvg-id="" tvg-name="ESPN Deportes" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ee/espn_deportes.png" group-title="SPORTS",ESPN Deportes
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/1124
+#EXTINF:-1 tvg-id="" tvg-name="ESPN U" tvg-logo="https://www.lyngsat-logo.com/logo/tv/ee/espn_u.png" group-title="SPORTS",ESPN U
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/1190
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",CNBC HD (ENG)
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/501
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",CNBC US
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/502
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",DISCOVERY CIVILIZATION
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/686
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",ESPN1
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/520
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",FX
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/708
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",History HD (ENG)
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/565
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",Lifetime HD (ENG)
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/567
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",NATGEO
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/597
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",SYFY
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/652
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",TNT
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/660
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",NFLREDZONE
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/623
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",UNIVISION SPORTS   ULTIMO
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/666
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",BTN
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/490
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",Animal HD (ENG)
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/730
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",Comedy Central HD (ENG)
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/731
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",Investigation Discovery ID
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/735
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",SPORTSBAYAREA
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/644
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",sportsboston
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/645
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",SPORTSCALIFORNIA
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/646
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",SPORTSCHICAGO
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/647
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",SPORTSMAN CHANNEL
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/648
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",SPORTSNORTHWEST
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/649
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",SPORTSPHILADELPHIA
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/650
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",SPORTSWASHINGTON
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/651
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",TV5
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/775
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",baby tv
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/485
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",Bloomberg
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/767
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",CINEMAX HD
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/769
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",DISCOVERY SCIENCE
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/770
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",goltv esp
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/559
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="GENERAL",Discovery Channel US
+http://us1-external-sources.iptvserver.tv:80/kkkrkDp2a9KNwAwGzpb/QT94uK5NNQw4r4Qs/1125
