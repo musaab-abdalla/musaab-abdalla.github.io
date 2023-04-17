@@ -147,5 +147,5 @@ https://ythls.onrender.com/channel/UCdTyuXgmJkG_O8_75eqej-w.m3u8
 https://stream.skynewsarabia.com/hls/sna.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Alarabiya" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/aa/alarabiya-ae.png" group-title="NEWS",Alarabiya
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CNN" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sky-news-uk.svg" group-title="NEWS",CNN
-https://16live00.akamaized.net/CNN/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Sudan TV" tvg-language="Arabic" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sky-news-uk.svg" group-title="SUDAN",Sudan TV
+https://castor.streamthatvideo.co:8081/sudantv/index.m3u8
